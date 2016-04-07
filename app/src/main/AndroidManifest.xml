@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seasidelee.sportsclock" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectSongs"
+            android:label="@string/title_activity_select_songs" >
+        </activity>
+        <activity
+            android:name=".CreateClock"
+            android:label="@string/title_activity_create_clock" >
+        </activity>
+
+        <service
+            android:name=".Alarm"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".Getup"
+            android:label="@string/title_activity_getup" >
+        </activity>
+        <activity
+            android:name=".Shake"
+            android:label="@string/title_activity_shake" >
+        </activity>
+        <activity
+            android:name=".Succeed"
+            android:label="@string/title_activity_succeed" >
+        </activity>
+
+        <service
+            android:name=".checksleep"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+</manifest>

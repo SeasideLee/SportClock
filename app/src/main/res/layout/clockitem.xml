@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:id="@+id/ClockList"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:id="@+id/Clocktime"
+        android:textColor="#EEEEEE"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="12sp"
+            android:paddingTop="8dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:paddingBottom="8dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"/>
+</LinearLayout>

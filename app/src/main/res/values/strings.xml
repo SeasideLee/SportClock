@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">运动闹钟</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_getsongs">Getsongs</string>
+    <string name="title_activity_select_songs">SelectSongs</string>
+    <string name="title_activity_create_clock">CreateClock</string>
+    <string name="title_activity_getup">Getup</string>
+    <string name="title_activity_shake">shake</string>
+    <string name="title_activity_succeed">Succeed</string>
+    <string name="title_activity_areyousleeping">Areyousleeping</string>
+</resources>
